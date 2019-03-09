@@ -11,7 +11,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    this.getDogs('https://dog.ceo/api/breeds/list/all'
+    this.getDogs('https://dog.ceo/api/breed/hound/list/'
 );
   }
 
@@ -24,7 +24,7 @@ class App extends Component {
         return res.json();
       })
       .then(data => {
-        this.setState({ dogBreeds: data.results });
+        this.setState({ dogBreeds: data.message });
       })
       .catch(err => {
         throw new Error(err);
