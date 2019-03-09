@@ -1,0 +1,15 @@
+- [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+
+  React JS is a UI framework that allows you to easily render interactive components on a website for your users. It's built using a set of components that allow you to separate out your functions. It uses a JSX syntax in order to render HTML-like components on your website through JavaScript.
+
+- [ ] What does it mean to _think_ in react?
+
+  It means you have to start thinking about how you build things out of components instead of discrete hard-coded HTML/JS/CSS. You have to understand how data is passed through state and props between your application and the pieces of your application (components).
+
+- [ ] Describe state.
+
+  State is an object that contains data inside of your application. It is immutable but can be written over with setState or map functions.
+
+- [ ] Describe props.
+
+  Props are also an object that contains state data but allows it to be passed between different components.
